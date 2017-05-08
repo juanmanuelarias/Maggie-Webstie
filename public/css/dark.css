@@ -1,0 +1,247 @@
+/*//////////////////////////////////////////
+///----------------------------------------
+//------- Ona Template - Dark Version
+///----------------------------------------
+//////////////////////////////////////////*/
+
+body {
+    background-color: #1c1c1c;
+    color: #7e7e7e;
+}
+
+.form-control {
+	color:#7e7e7e;
+}
+
+.bg-gray {
+	background-color: #181818;
+}
+
+.nav-tabs > li > a {
+	border-right-color:#181818;
+}
+
+#blog,
+.callout,
+.special-menu,
+.bg-gray {
+	border-color:#121212;
+}
+
+#ona-loader,
+.progress-bar,
+.progress-title,
+.progress-tooltip,
+.nav-tabs > li > a,
+.entry-date,
+.tagcloud a,
+.widget .twitter-icon,
+.pricing-action,
+.info > i,
+.input-desc,
+.btn.btn-black:hover,
+.btn.btn-black:focus,
+.btn.btn-black.focus,
+.btn.btn-white:hover,
+.btn.btn-white:focus,
+.btn.btn-white.focus {
+	background: #0e0e0e;
+}
+
+.btn.btn-black:hover,
+.btn.btn-black:focus,
+.btn.btn-black.focus,
+.btn.btn-white:hover,
+.btn.btn-white:focus,
+.btn.btn-white.focus {
+	border-color: #0e0e0e;
+}
+
+.progress-tooltip:after {
+	border-top-color: #0e0e0e;
+}
+
+.ball-animation,
+a,
+.social-icon,
+#mobile-nav-close {
+	color:#b9b9b9;
+}
+
+a:active,
+a:hover,
+a:focus {
+	color:#fff;
+}
+
+@media (max-width: 991px) {
+	.dropdown-menu > li > a {
+		color:#b9b9b9;
+	}
+}
+
+h1,.h1,
+h2,.h2,
+h3,.h3,
+h4,.h4,
+h5,.h5,
+h6,.h6,
+#gallery-filter li a {
+	color:#f2f2f2;
+}
+
+.footer:before {
+	background-color: #1c1c1c;
+}
+
+hr,
+.subtitle:before {
+	background-image: -webkit-linear-gradient(left, transparent, rgba(255, 255, 255, 0.9), transparent);
+	background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.9), transparent);
+}
+
+.subtitle:after  {
+	background-color: #f2f2f2;
+}
+
+.title,
+.subtitle {
+	color:#fff;
+}
+
+.pagination-container {
+	border-top-color: #0e0e0e;
+	border-bottom-color: #0e0e0e;
+}
+
+.pagination-container .pagination-info {
+	color:#8e8e8e;
+}
+
+.panel,
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+	border-color:#0e0e0e;
+}
+
+.panel-heading {
+	background-color: #0e0e0e;
+}
+
+.panel-heading:hover {
+	background-color: #121212;
+}
+
+@media (max-width: 991px) {
+	.navbar-container {
+		background-color: rgba(0, 0, 0, 0.9);
+	}
+}
+
+.member:after,
+#instafeed a:after,
+.gallery-item figure:after {
+	background-color: rgba(0,0,0, 0.4);
+}
+
+.progress {
+	background-color: #4e4e4e;
+}
+
+.nav-tabs > li > a:hover {
+	border-color:#121212;
+	border-right-color: #121212;
+	background-color: #121212;
+}
+
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus {
+	border-bottom-color:#1c1c1c;
+	color:#fff;
+}
+
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:focus {
+	border-color:#0e0e0e;
+	border-bottom-color: #1c1c1c
+}
+
+@media (min-width: 768px) {
+	.nav-tabs.nav-justified > li > a {
+		border-bottom-color: #0e0e0e;
+	}
+
+	.nav-tabs.nav-justified > .active > a,
+	.nav-tabs.nav-justified > .active > a:hover,
+	.nav-tabs.nav-justified > .active > a:focus {
+		border-bottom-color: #1c1c1c;
+	}
+}
+
+.tab-content,
+.gallery-filter-container .filter-desc,
+.about-author,
+.form-control,
+.btn.btn-black {
+	border-color: #0a0a0a;
+}
+
+.entry {
+	border-top:1px solid #0a0a0a;
+}
+
+.entry:last-of-type {
+	border-bottom:1px solid #0a0a0a;
+}
+
+.form-control::-moz-placeholder {
+	color: #7e7e7e;
+}
+
+.form-control:-ms-input-placeholder {
+	color: #7e7e7e;
+}
+
+.form-control::-webkit-input-placeholder {
+	color: #7e7e7e;
+}
+
+.btn.btn-black {
+	color:#7e7e7e;
+}
+
+#map address {
+	color:#0e0e0e;
+}
+
+.tp-bannertimer {
+	background-color: rgba(0,0,0, 0.5) !important;
+}
+
+.service-content {
+	background-color: rgba(0,0,0, 0.6);
+	border-color:rgba(0,0,0, 0.7);
+}
+
+.modal-header {
+	border-bottom-color: #121212;
+}
+
+.modal-header h3 {
+	color:#fff;
+}
+
+.modal-content {
+	background-color: #181818;
+}
+
+.modal-footer {
+	border-top-color: #121212;
+}
+
+.form-control[disabled], 
+.form-control[readonly], 
+fieldset[disabled] .form-control {
+	background-color: #101010;
+}

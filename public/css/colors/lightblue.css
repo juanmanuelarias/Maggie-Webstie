@@ -1,0 +1,157 @@
+/*//////////////////////////////////////////
+///----------------------------------------
+//------- Ona Template - Colors
+// ------ Color Hex codes: 
+// ------ 1- #29b6f6 
+// ------ 2- #fbd530
+// ------ 3- #fff2b9
+///----------------------------------------
+//////////////////////////////////////////*/
+
+::selection {
+    background-color: #29b6f6;
+}
+
+::-moz-selection {
+	background-color: #29b6f6;
+}
+
+a:active,
+a:hover,
+a:focus,
+.social-icon:hover,
+.social-icon:focus,
+#mobile-nav-close:hover,
+#mobile-nav-close:focus,
+.dropdown-menu li.active > a,
+.dropdown-menu li.active > a:hover,
+.dropdown-menu li.active > a:focus,
+.dropdown-menu li.open > a,
+.dropdown-menu li.open > a:hover,
+.dropdown-menu li.open > a:focus,
+.dropdown-menu li li.open > a,
+.dropdown-menu li li.open > a:hover,
+.dropdown-menu li li.open > a:focus,
+.dropdown-menu li:hover > a,
+.dropdown-menu li:focus > a,
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.gallery-title a:hover,
+.gallery-title a:focus,
+.reply-link,
+.link-container a:hover,
+.link-container a:focus,
+.btn.btn-red,
+.footer-top i,
+.menu-item-price > span {
+	color:#29b6f6;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+.btn.btn-white-red:hover,
+.btn.btn-white-red:focus,
+.btn.btn-white-red.focus,
+.btn.btn-white-block:hover,
+.btn.btn-white-block:focus,
+.btn.btn-white-block.focus,
+.ball-animation > div {
+	background-color: #29b6f6;
+	border-color: #29b6f6;
+}
+
+.newsletter-container .btn:hover,
+.newsletter-container .btn:focus,
+#gallery-filter li a:hover,
+#gallery-filter li a:focus,
+.popup-item:hover,
+.popup-item:focus,
+.tagcloud a:hover,
+.tagcloud a:focus,
+.pricing-table .label,
+.form-control:focus + .input-desc,
+.form-control:focus + label + .input-desc,
+.form-control.light:focus + .input-desc,
+.form-control.light:focus + label + .input-desc,
+.btn.btn-red:hover,
+.btn.btn-red:focus,
+.btn.btn-red.focus,
+.carousel-control:hover:after,
+.carousel-control:focus:after,
+.owl-prev:hover:after,
+.owl-next:hover:after,
+.owl-prev:focus:after,
+.owl-next:focus:after,
+.fixed-footer,
+.side-left,
+.side-right,
+.header,
+.datetimepicker table tr td.active:active, 
+.datetimepicker table tr td.active:hover:active, 
+.datetimepicker table tr td.active.disabled:active, 
+.datetimepicker table tr td.active.disabled:hover:active, 
+.datetimepicker table tr td.active.active, 
+.datetimepicker table tr td.active:hover.active, 
+.datetimepicker table tr td.active.disabled.active, 
+.datetimepicker table tr td.active.disabled:hover.active,
+.datetimepicker table tr td span.active:active,
+.datetimepicker table tr td span.active:hover:active,
+.datetimepicker table tr td span.active.disabled:active,
+.datetimepicker table tr td span.active.disabled:hover:active,
+.datetimepicker table tr td span.active.active,
+.datetimepicker table tr td span.active:hover.active,
+.datetimepicker table tr td span.active.disabled.active,
+.datetimepicker table tr td span.active.disabled:hover.active  {
+	background-color: #29b6f6;
+}
+
+.form-control:focus,
+.btn.btn-red {
+	border-color: #29b6f6;
+}
+
+.label,
+.features,
+.ball-animation > div:last-child,
+.nav.navbar-nav li.active > a,
+.nav.navbar-nav li.open > a, 
+.nav.navbar-nav li.open > a,
+.nav.navbar-nav > li > a:focus, 
+.nav.navbar-nav > li > a:hover {
+	background-color:#fbd530;
+}
+
+.navbar-toggle,
+.navbar-nav > li> a.navbar-btn:hover,
+.navbar-nav > li> a.navbar-btn:focus {
+	background-color:#fbd530;
+	border-color:#fbd530;
+}
+
+.fixed-footer a,
+.side-text a:hover,
+.side-text a:focus,
+.side .social-icon:hover,
+.side .social-icon:focus,
+.navbar-brand > i {
+	color:#fbd530;
+}
+
+#scroll-top:after {
+	border-bottom-color: #fbd530;
+}
+
+@media (min-width:992px) {
+	.dropdown-menu {
+		background-color: #fbd530;
+	}
+}
+
+.features .feature,
+.features .feature-icon {
+	color:#fff2b9;
+}

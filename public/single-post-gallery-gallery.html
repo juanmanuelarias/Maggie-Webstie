@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Ona - Creative Template</title>
+        <meta name="description" content="Multipurpose template for creative folks">
+
+        <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Google font-->
+        <link href='http://fonts.googleapis.com/css?family=Lobster%7CLato:400,300italic,400italic,700' rel='stylesheet' type='text/css'>
+        
+        <!-- Animate Stylesheet -->
+        <link rel="stylesheet" href="css/animate.css">
+
+        <!-- Bootstrap Stylesheet -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- Magnific-Popup Stylesheet -->
+        <link rel="stylesheet" href="css/magnific-popup.css">
+
+        <!-- Font icon Stylesheet -->
+        <link rel="stylesheet" href="css/ionicons.min.css">
+
+        <!-- Date-Time Picker -->
+        <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+        
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Color Scheme Stylesheet -->
+        <link rel="stylesheet" id="color-scheme" href="css/colors/red.css">
+        
+        <!-- Favicon and Apple Icons -->
+        <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/faviconx57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/faviconx72.png">
+
+        <!-- Modernizr -->
+        <script src="js/modernizr.js"></script>
+
+    </head>
+    <body>
+
+    <div id="wrapper">
+        <div id="ona-loader">
+            <div class="ball-animation">
+                <div></div>
+                <div></div>
+            </div><!-- End #loader-anim -->
+        </div><!-- End #ona-loader -->
+
+        <!-- SIDE ELEMENTS-->
+        <div class="side side-left">
+            <div class="social-icons">
+                <a href="#" class="social-icon" title="Facebook"><i class="ion-social-facebook"></i></a>
+                <a href="#" class="social-icon" title="Twitter"><i class="ion-social-twitter-outline"></i></a>
+                <a href="#" class="social-icon" title="Wordpress"><i class="ion-social-wordpress"></i></a>
+                <a href="#" class="social-icon" title="Google +"><i class="ion-social-googleplus-outline"></i></a>
+                <a href="#" class="social-icon" title="Instagram"><i class="ion-social-instagram-outline"></i></a>
+                <a href="#" class="social-icon" title="Linkedin"><i class="ion-social-linkedin-outline"></i></a>
+                <a href="#" class="social-icon" title="Reddit"><i class="ion-social-reddit"></i></a>
+            </div><!-- End .social-icons -->
+        </div><!-- End .side-left -->
+        <div class="side side-right">
+            <div class="side-text-container">
+                <div class="side-text">
+                    <a href="https://wrapbootstrap.com/user/e2themes" target="_blank">ONA - Creative  Multipurpose Template</a>
+                </div><!-- End .side-text -->
+            </div><!-- End .side-text-container -->
+        </div><!-- End .side-right -->
+        <!-- End SIDE ELEMENTS -->
+
+        <!-- Reservation Modal -->
+        <div class="modal fade" id="reservation-modal" tabindex="-1" role="dialog" aria-labelledby="reservation-title">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form action="#" method="post" id="reservation-form">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h3 class="modal-title" id="reservation-title">Reservation</h3>
+                        </div><!-- End .modal-header -->
+
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-xs-6 col-xss-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="reservationname" name="reservationname" placeholder="Your Name" required>
+                                        <label for="reservationname" class="input-desc">Name</label>
+                                    </div><!-- End .form-group -->
+                                </div><!-- End .col-xs-6 -->
+                                <div class="col-xs-6 col-xss-12">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="reservationemail" name="reservationemail" placeholder="Your Email" required>
+                                        <label for="reservationemail" class="input-desc">Email</label>
+                                    </div><!-- End .form-group -->
+                                </div><!-- End .col-xs-6 -->
+                            </div><!-- End .row -->
+                            <div class="row">
+                                <div class="col-xs-6 col-xss-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="reservationphone" name="reservationphone" placeholder="Phone">
+                                        <label for="reservationphone" class="input-desc">Phone</label>
+                                    </div><!-- End .form-group -->
+                                </div><!-- End .col-xs-6 -->
+                                <div class="col-xs-6 col-xss-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="reservationmobilphone" name="reservationmobilphone" placeholder="Phone">
+                                        <label for="reservationmobilphone" class="input-desc">Mobil Phone</label>
+                                    </div><!-- End .form-group -->
+                                </div><!-- End .col-xs-6 -->
+                            </div><!-- End .row -->
+                            <div class="row">
+                                <div class="col-xs-6 col-xss-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="reservationnumber" name="reservationnumber" placeholder="Number of Guests">
+                                        <label for="reservationnumber" class="input-desc">Number of Guests</label>
+                                    </div><!-- End .form-group -->
+                                </div><!-- End .col-xs-6 -->
+                                <div class="col-xs-6 col-xss-12">
+                                    <div class="form-group">
+                                        <input type="text" id="reservationdate" name="reservationdate" readonly class="form-control form-date" data-date-format="dd MM yyyy hh:ii" placeholder="Date">
+                                        <label for="reservationdate" class="input-desc">Date &amp; Time</label>
+                                    </div><!-- End .form-group -->
+                                </div><!-- End .col-xs-6 -->
+                            </div><!-- End .row -->
+                            <div class="form-group">
+                                <textarea class="form-control" rows="6" id="reservationmessage" name="reservationmessage" placeholder="Your Requests" required></textarea>
+                                <label for="reservationmessage" class="input-desc">Comments/Requests</label>
+                            </div><!-- End .form-group -->
+                        </div><!-- End .modal-body -->
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-black">Make a Reservation</button>
+                        </div><!-- End .modal-footer -->
+                    </form>
+                </div><!-- End .modal-content -->
+            </div><!-- End .modal-dialog -->
+        </div><!-- End .modal -->
+
+        <!-- HEADER-->
+        <header class="header">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html" title="Ona - Creative Template">Ona Resta.</a>
+                    <button type="button" class="navbar-toggle" id="mobile-nav-btn">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div><!-- End .navbar-header -->
+
+                <div class="navbar-container">
+                    <a href="#" id="mobile-nav-close"><i class="ion-ios-close"></i></a>
+                    <nav>
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html#home">Home</a></li>
+                            <li><a href="index.html#aboutus">About us</a></li>
+                            <li><a href="index.html#services">Services</a></li>
+                            <li><a href="index.html#gallery">Gallery</a></li>
+                            <li><a href="index.html#menu">Menu</a></li>
+                            <li><a href="index.html#blog">Blog</a></li>
+                            <li class="dropdown">
+                                <a href="#pages" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pages<span class="caret"></span></a>
+                                <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                    <li><a href="elements.html">Elements Page</a></li>
+                                    <li><a href="404.html">404 Page</a></li>
+                                    <li class="dropdown sub-dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Gallery Post<span class="caret"></span></a>
+                                        <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                            <li><a href="single-post-gallery.html">Gallery Post Image</a></li>
+                                            <li><a href="single-post-gallery-video.html">Gallery Post Video</a></li>
+                                            <li><a href="single-post-gallery-gallery.html">Gallery Post Gallery</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown sub-dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog Post<span class="caret"></span></a>
+                                        <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                            <li><a href="single.html">Post Fullwidth</a></li>
+                                            <li><a href="single-right-sidebar.html">Post Right Sidebar</a></li>
+                                            <li><a href="single-left-sidebar.html">Post Left Sidebar</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown sub-dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog Post Formats<span class="caret"></span></a>
+                                        <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                            <li><a href="single.html">Blog Post Image</a></li>
+                                            <li><a href="single-audio.html">Blog Post Audio</a></li>
+                                            <li><a href="single-video.html">Blog Post Video</a></li>
+                                            <li><a href="single-gallery.html">Blog Post Gallery</a></li>
+                                            <li><a href="single-link.html">Blog Post Link</a></li>
+                                            <li><a href="single-quote.html">Blog Post Quote</a></li>
+                                            <li><a href="single-noimage.html">Blog Post Noimage</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="index.html#contactus">Contact us</a></li>
+                            <li><a class="navbar-btn" href="#" data-toggle="modal" data-target="#reservation-modal">Reservation<i class="ion-clock"></i></a></li>
+                        </ul>
+                    </nav>
+                </div><!-- End .navbar-container -->
+            </div><!-- End .container-fluid -->
+        </header><!-- End .header -->
+        <!-- End HEADER -->
+        
+        <!-- MAIN-->
+        <div class="main single">
+
+            <div class="page-top fullscreen-min parallax-container mb0">
+                <div id="gallery-gallery-carousel" class="carousel slide parallax" data-ride="carousel" data-top-bottom="transform: translateY(0);" data-bottom-top="transform: translateY(-200px);" data-interval="10000">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active" style="background-image:url(assets/gallery/single.jpg)"><!-- Slide 1 -->
+                        </div>
+                        <div class="item" style="background-image:url(assets/gallery/single2.jpg)"></div><!-- Slide 2 -->
+                    </div><!-- End .carousel-inner -->
+                </div><!-- End .carousel -->
+                <div class="pagetop-wrapper">
+                    <!-- Carousel Controls -->
+                    <a class="left carousel-control" href="#gallery-gallery-carousel" role="button" data-slide="prev">
+                        <i class="ion-ios-arrow-left" aria-hidden="true"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#gallery-gallery-carousel" role="button" data-slide="next">
+                        <i class="ion-ios-arrow-right" aria-hidden="true"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    <div class="pagetop-content">
+                        <h1>Gallery Title HERE</h1>
+                    </div><!-- End .pagetop-content -->
+                </div><!-- End .pagetop-wrapper -->
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li class="active">Gallery Post</li>
+                </ol>
+            </div><!-- End .page-top -->
+            
+            <div class="gallery-content-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 gallery-content-meta">
+                            <ul>
+                                <li><strong>Start Date:</strong> September 20, 2015</li>
+                                <li><strong>Publish Date:</strong> October 20, 2015</li>
+                                <li><strong>Tags:</strong> <a href="#">Onepage</a>, <a href="#">Bootstrap</a>, <a href="#">Creative</a></li>
+                                <li><strong>Designed by:</strong> <a href="#">Susan</a></li>
+                                <li><strong>Coded by:</strong> <a href="#">Dean</a></li>
+                                <li><strong>Total Likes:</strong> <a href="#">21</a> <i class="ion-heart"></i></li>
+                                <li><strong>Total Views:</strong> 100 <i class="ion-eye"></i></li>
+                            </ul>
+                        </div><!-- End .col-md-4.gallery-content-meta -->
+                        <div class="col-md-8 gallery-content">
+                            <p><span class="dropcap">N</span>ulla ut vulputate massa. Integer porta tincidunt scelerisque. Integer ultrices sem in erat pretium, feugiat tristique neque finibus. Nulla metus enim, ornare ac orci suscipit, lobortis scelerisque diam. Donec auctor erat quis dolor laoreet, vitae dignissim metus semper. Proin pulvinar semper tortor, non scelerisque odio interdum ac. Sed tincidunt lorem non sem tempus egestas. Donec vel tristique turpis.</p>
+                            <blockquote>
+                                <p>Mauris urna dolor, fringilla in vestibulum sed, porta sit amet nibh. Mauris consectetur neque quis arcu pellentesque porttitor. Aenean in diam ligula. Nam dui lacus, luctus a lobortis vitae, congue a mauris.</p>
+                                <cite>-- Swirley Barney</cite>
+                            </blockquote>
+                            <p>Aliquam erat volutpat. Proin venenatis, felis ultricies tempor rhoncus, mi mi ornare ipsum, ac condimentum nulla mi non sem. Duis mattis sit amet dolor vel dignissim. Donec leo purus, auctor sed massa tempor, volutpat fermentum mauris. Vivamus velit eros, fringilla in diam eu, bibendum vehicula nulla. Nam suscipit, nisi at elementum varius, felis massa aliquet ante, vel convallis ligula nulla eu ante. Vivamus leo dui, porta id rutrum at, iaculis eget leo. In in lectus tortor. Aenean vel mi id ipsum facilisis suscipit. Suspendisse quis mauris et eros pretium lobortis. Aliquam vitae metus eu augue fringilla tristique elementum sed metus. Phasellus congue eget mi non pharetra. Vestibulum dignissim arcu at eros pretium, vitae feugiat sem maximus.</p>
+                        </div><!-- End .col-md-8.gallery-content-meta -->
+                    </div><!-- End .row -->
+                </div><!-- End .container -->
+
+                <div class="mb40"></div><!-- space -->
+                <h2 class="subtitle text-center">Related Projects</h2>
+                <div class="owl-carousel related-gallery-carousel popup-gallery">
+                    <div class="gallery-item">
+                        <figure>
+                            <img src="assets/gallery/grid/item1.jpg" alt="gallery item name">
+                            <figcaption>
+                                <a href="assets/gallery/grid/item1.jpg" class="popup-item" title="gallery Item Description"><i class="ion-arrow-expand"></i></a>
+                            </figcaption>
+                        </figure>
+                        <div class="gallery-meta">
+                            <h2 class="gallery-title"><a href="single-gallery.html">Gallery Title</a></h2>
+                            <div class="gallery-tags"><a href="#">Design</a>, <a href="#">Develop</a></div>
+                        </div><!-- End .gallery-meta -->                            
+                    </div><!-- End .gallery-item -->
+                    <div class="gallery-item">
+                        <figure>
+                            <img src="assets/gallery/grid/item2.jpg" alt="gallery item name">
+                            <figcaption>
+                                <a href="assets/gallery/grid/item2.jpg" class="popup-item" title="gallery Item Description"><i class="ion-arrow-expand"></i></a>
+                            </figcaption>
+                        </figure>
+                        <div class="gallery-meta">
+                            <h2 class="gallery-title"><a href="single-gallery.html">Gallery Title</a></h2>
+                            <div class="gallery-tags"><a href="#">Design</a>, <a href="#">Develop</a></div>
+                        </div><!-- End .gallery-meta -->                            
+                    </div><!-- End .gallery-item -->
+                    <div class="gallery-item">
+                        <figure>
+                            <img src="assets/gallery/grid/item3.jpg" alt="gallery item name">
+                            <figcaption>
+                                <a href="assets/gallery/grid/item3.jpg" class="popup-item" title="gallery Item Description"><i class="ion-arrow-expand"></i></a>
+                            </figcaption>
+                        </figure>
+                        <div class="gallery-meta">
+                            <h2 class="gallery-title"><a href="single-gallery.html">Gallery Title</a></h2>
+                            <div class="gallery-tags"><a href="#">Design</a>, <a href="#">Develop</a></div>
+                        </div><!-- End .gallery-meta -->                            
+                    </div><!-- End .gallery-item -->
+                    <div class="gallery-item">
+                        <figure>
+                            <img src="assets/gallery/grid/item4.jpg" alt="gallery item name">
+                            <figcaption>
+                                <a href="assets/gallery/grid/item4.jpg" class="popup-item" title="gallery Item Description"><i class="ion-arrow-expand"></i></a>
+                            </figcaption>
+                        </figure>
+                        <div class="gallery-meta">
+                            <h2 class="gallery-title"><a href="single-gallery.html">Gallery Title</a></h2>
+                            <div class="gallery-tags"><a href="#">Design</a>, <a href="#">Develop</a></div>
+                        </div><!-- End .gallery-meta -->                            
+                    </div><!-- End .gallery-item -->
+                    <div class="gallery-item">
+                        <figure>
+                            <img src="assets/gallery/grid/item5.jpg" alt="gallery item name">
+                            <figcaption>
+                                <a href="assets/gallery/grid/item5.jpg" class="popup-item" title="gallery Item Description"><i class="ion-arrow-expand"></i></a>
+                            </figcaption>
+                        </figure>
+                        <div class="gallery-meta">
+                            <h2 class="gallery-title"><a href="single-gallery.html">Gallery Title</a></h2>
+                            <div class="gallery-tags"><a href="#">Design</a>, <a href="#">Develop</a></div>
+                        </div><!-- End .gallery-meta -->                            
+                    </div><!-- End .gallery-item -->
+                    <div class="gallery-item">
+                        <figure>
+                            <img src="assets/gallery/grid/item6.jpg" alt="gallery item name">
+                            <figcaption>
+                                <a href="assets/gallery/grid/item6.jpg" class="popup-item" title="gallery Item Description"><i class="ion-arrow-expand"></i></a>
+                            </figcaption>
+                        </figure>
+                        <div class="gallery-meta">
+                            <h2 class="gallery-title"><a href="single-gallery.html">Gallery Title</a></h2>
+                            <div class="gallery-tags"><a href="#">Design</a>, <a href="#">Develop</a></div>
+                        </div><!-- End .gallery-meta -->                            
+                    </div><!-- End .gallery-item -->
+                    <div class="gallery-item">
+                        <figure>
+                            <img src="assets/gallery/grid/item7.jpg" alt="gallery item name">
+                            <figcaption>
+                                <a href="assets/gallery/grid/item7.jpg" class="popup-item" title="gallery Item Description"><i class="ion-arrow-expand"></i></a>
+                            </figcaption>
+                        </figure>
+                        <div class="gallery-meta">
+                            <h2 class="gallery-title"><a href="single-gallery.html">Gallery Title</a></h2>
+                            <div class="gallery-tags"><a href="#">Design</a>, <a href="#">Develop</a></div>
+                        </div><!-- End .gallery-meta -->                            
+                    </div><!-- End .gallery-item -->
+                </div><!-- End .owl-carousel -->
+            </div><!-- End .gallery-content-container -->
+
+            <div class="mb80"></div><!-- margin -->
+            
+            <!-- FOOTER -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-top">
+                        <div class="container">
+                            Created with <i class="ion-heart"></i><br> 
+                            All rights reserved &copy; <a href="http://wrapbootstrap.com/user/e2themes">e2themes</a>
+                        </div><!-- End .container -->
+                    </div><!-- End .footer-top -->
+                    <h4 class="subtitle smaller light text-center">Instagram Feed</h4>
+                </div><!-- End .container -->
+                <div id="instafeed" class="owl-carousel"></div><!-- End .instafeed -->
+            </footer>
+            <!-- END FOOTER -->
+
+        </div><!-- End .main -->
+        <!-- End MAIN-->
+
+        <!-- Fixed FOOTER -->
+        <footer class="fixed-footer footer-bottom">
+            <div class="container-fluid">
+                <div class="text-center">Ona Restaurant - Created by <a href="http://wrapbootstrap.com/user/e2themes">e2Themes</a>. <span class="hidden-sm">All rights reserved.</span> &copy;</div><!-- End text-center -->
+            </div><!-- End .container-fluid -->
+        </footer><!-- End .footer -->
+        <!-- End FOOTER -->
+    </div><!-- End #wrapper -->
+	<!-- END -->
+
+    <!-- scroll-top -->
+    <a href="#top" id="scroll-top" title="Scroll Top"><i class="ion-ios-arrow-up"></i></a>
+    
+    <!-- Smoothscroll -->
+    <script src="js/smoothscroll.js"></script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/retina.min.js"></script>
+    <script src="js/jquery.waitforimages.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/skrollr.min.js"></script>
+    <script src="js/spectragram.min.js"></script>
+    <script src="js/main.js"></script>
+
+    </body>
+</html>
