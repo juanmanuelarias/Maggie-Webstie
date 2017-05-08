@@ -1,20 +1,9 @@
 /*//////////////////////////////////////////
 ///----------------------------------------
 //------- Ona Template - Colors
-// ------ Color Hex codes: 
-// ------ 1- #4caf50 
-// ------ 2- #64e169
-// ------ 3- #4caf50
+// ------ Color Hex code: #4caf50
 ///----------------------------------------
 //////////////////////////////////////////*/
-
-::selection {
-    background-color: #4caf50;
-}
-
-::-moz-selection {
-	background-color: #4caf50;
-}
 
 a:active,
 a:hover,
@@ -23,6 +12,11 @@ a:focus,
 .social-icon:focus,
 #mobile-nav-close:hover,
 #mobile-nav-close:focus,
+.nav.navbar-nav li.active > a,
+.nav.navbar-nav li.open > a, 
+.nav.navbar-nav li.open > a,
+.nav.navbar-nav > li > a:focus, 
+.nav.navbar-nav > li > a:hover,
 .dropdown-menu li.active > a,
 .dropdown-menu li.active > a:hover,
 .dropdown-menu li.active > a:focus,
@@ -36,14 +30,13 @@ a:focus,
 .dropdown-menu li:focus > a,
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
-.gallery-title a:hover,
-.gallery-title a:focus,
+.portfolio-title a:hover,
+.portfolio-title a:focus,
 .reply-link,
 .link-container a:hover,
 .link-container a:focus,
 .btn.btn-red,
-.footer-top i,
-.menu-item-price > span {
+.footer-top i {
 	color:#4caf50;
 }
 
@@ -53,21 +46,22 @@ a:focus,
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus,
+.nav-open .navbar-toggle,
+.navbar-toggle:hover,
 .btn.btn-white-red:hover,
 .btn.btn-white-red:focus,
 .btn.btn-white-red.focus,
 .btn.btn-white-block:hover,
 .btn.btn-white-block:focus,
-.btn.btn-white-block.focus,
-.ball-animation > div {
+.btn.btn-white-block.focus {
 	background-color: #4caf50;
 	border-color: #4caf50;
 }
 
 .newsletter-container .btn:hover,
 .newsletter-container .btn:focus,
-#gallery-filter li a:hover,
-#gallery-filter li a:focus,
+#portfolio-filter li a:hover,
+#portfolio-filter li a:focus,
 .popup-item:hover,
 .popup-item:focus,
 .tagcloud a:hover,
@@ -80,78 +74,13 @@ a:focus,
 .btn.btn-red:hover,
 .btn.btn-red:focus,
 .btn.btn-red.focus,
-.carousel-control:hover:after,
-.carousel-control:focus:after,
-.owl-prev:hover:after,
-.owl-next:hover:after,
-.owl-prev:focus:after,
-.owl-next:focus:after,
-.fixed-footer,
-.side-left,
-.side-right,
-.header,
-.datetimepicker table tr td.active:active, 
-.datetimepicker table tr td.active:hover:active, 
-.datetimepicker table tr td.active.disabled:active, 
-.datetimepicker table tr td.active.disabled:hover:active, 
-.datetimepicker table tr td.active.active, 
-.datetimepicker table tr td.active:hover.active, 
-.datetimepicker table tr td.active.disabled.active, 
-.datetimepicker table tr td.active.disabled:hover.active,
-.datetimepicker table tr td span.active:active,
-.datetimepicker table tr td span.active:hover:active,
-.datetimepicker table tr td span.active.disabled:active,
-.datetimepicker table tr td span.active.disabled:hover:active,
-.datetimepicker table tr td span.active.active,
-.datetimepicker table tr td span.active:hover.active,
-.datetimepicker table tr td span.active.disabled.active,
-.datetimepicker table tr td span.active.disabled:hover.active  {
+.owl-prev:hover,
+.owl-next:hover {
 	background-color: #4caf50;
 }
+
 
 .form-control:focus,
 .btn.btn-red {
 	border-color: #4caf50;
-}
-
-.label,
-.features,
-.ball-animation > div:last-child,
-.nav.navbar-nav li.active > a,
-.nav.navbar-nav li.open > a, 
-.nav.navbar-nav li.open > a,
-.nav.navbar-nav > li > a:focus, 
-.nav.navbar-nav > li > a:hover {
-	background-color:#64e169;
-}
-
-.navbar-toggle,
-.navbar-nav > li> a.navbar-btn:hover,
-.navbar-nav > li> a.navbar-btn:focus {
-	background-color:#64e169;
-	border-color:#64e169;
-}
-
-.fixed-footer a,
-.side-text a:hover,
-.side-text a:focus,
-.side .social-icon:hover,
-.side .social-icon:focus,
-.navbar-brand > i {
-	color:#64e169;
-}
-
-#scroll-top:after {
-	border-bottom-color: #64e169;
-}
-
-@media (min-width:992px) {
-	.dropdown-menu {
-		background-color: #64e169;
-	}
-}
-
-.features .feature,
-.features .feature-icon {
-	color:#4caf50;
 }

@@ -11,7 +11,7 @@ $(function() {
 		mobile = false;
 	}
 
-	// Ona Loader hide on window load
+	// One Loader hide on window load
 	$('#ona-loader').delay(700).fadeOut(800, function () {
 		$(this).remove();
 	});
@@ -32,7 +32,7 @@ $(function() {
 			var $body = $('body'), 
 				data = $body.data('bs.scrollspy');
 
-			data.options.offset = 81;
+			data.options.offset = 56;
 			$body.data('bs.scrollspy', data);
 			$body.scrollspy('refresh');
 			offsetDefined = true;
@@ -113,7 +113,7 @@ $(function() {
 
 			if (winWidth >= 768) {
 				// add edge offset if edges are visible
-				targetPos -= 80;
+				targetPos -= 56;
 			} 
 
 			if (winWidth <= 991) {
@@ -137,17 +137,6 @@ $(function() {
 	});
 
 	// Scroll Top
-	$(window).on('load scroll', function () {
-		var windowTop = $(window).scrollTop(),
-            scrollTop = $('#scroll-top');
-
-        if (windowTop >= 300) {
-            scrollTop.addClass('fixed');
-        } else {
-            scrollTop.removeClass('fixed');
-        }
-	});
-
 	$('#scroll-top').on('click', function (e) {
         $('html, body').animate({
 	            'scrollTop': 0
@@ -202,17 +191,17 @@ $(function() {
 		}
 	});
 
-	// Gallery Isotope
+	// Portfolio Isotope
 	if($.fn.isotope) {
-		var galleryContainer = $('#gallery-item-container'),
-			filterContainer = $('#gallery-filter'),
-			layoutMode = galleryContainer.data('layoutmode');
+		var portfolioContainer = $('#portfolio-item-container'),
+			filterContainer = $('#portfolio-filter'),
+			layoutMode = portfolioContainer.data('layoutmode');
 
 		// Wait for images
-		galleryContainer.waitForImages(function () {
+		portfolioContainer.waitForImages(function () {
 			// Layout init	
-			galleryContainer.isotope({
-	        	itemSelector: '.gallery-item',
+			portfolioContainer.isotope({
+	        	itemSelector: '.portfolio-item',
 	        	layoutMode: (layoutMode) ? layoutMode : 'masonry'
 	    	});
 			// Filter init
@@ -223,7 +212,7 @@ $(function() {
 				filterContainer.find('.active').removeClass('active');
 
 				// And filter now
-				galleryContainer.isotope({
+				portfolioContainer.isotope({
 					filter: selector,
 					transitionDuration: '0.8s'
 				});
@@ -245,27 +234,13 @@ $(function() {
 		});
 	}
 
-	// Date Time Picker
-	// Include jquery.bootstrap-datetimepicker.min.min.js file
-
-	if ($.fn.datetimepicker) {
-		// Date picker
-		$('.form-date').datetimepicker({
-	        weekStart: 1,
-	        todayBtn:  1,
-			autoclose: 1,
-			todayHighlight: 1
-	    });
-	}
-
-
-	// gallery Carousel
-	$('.owl-carousel.related-gallery-carousel').owlCarousel({
+	// Portfolio Carousel
+	$('.owl-carousel.related-portfolio-carousel').owlCarousel({
         loop:true,
 		margin:0,
 		responsiveClass:true,
 		nav:true,
-		navText: ['<i class="ion-ios-arrow-left">', '<i class="ion-ios-arrow-right">'],
+		navText: ['<i class="ion-chevron-left">', '<i class="ion-chevron-right">'],
 		dots: false,
 		autoplay: true,
 		autoplayTimeout: 10000,
@@ -295,7 +270,7 @@ $(function() {
 		margin:0,
 		responsiveClass:true,
 		nav:true,
-		navText: ['<i class="ion-ios-arrow-left">', '<i class="ion-ios-arrow-right">'],
+		navText: ['<i class="ion-chevron-left">', '<i class="ion-chevron-right">'],
 		dots: false,
 		autoplay: true,
 		autoplayTimeout: 13000,
@@ -338,12 +313,12 @@ $(function() {
 	// Instagram feed
     if ( $.fn.spectragram && $('#instafeed').length) {
 		jQuery.fn.spectragram.accessData = {
-		    accessToken: '3541242226.88da395.ed646898a9414de8afc1c025be14b590',
-		    clientID: '88da3951141a4ef5b9fcfa5c19291f2e'
+		    accessToken: '3542102374.6b1dc36.51fe98a5b87546b28c0e4740f8b95f8c',
+		    clientID: '8c47e16792c8426aa93a08d82329d2e4'
 		};
 
 		jQuery('#instafeed').spectragram('getUserFeed',{
-		    query: 'onetemplate',
+		    query: 'onetemplatev2',
 		    max: 10,
 		    size: 'medium',
 		    wrapEachWith: '',
@@ -401,7 +376,8 @@ $(function() {
             zoom: 13,
             center: new google.maps.LatLng(51.521107, -0.157002),
             scrollwheel: false,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
         });
 
         var infowindow = new google.maps.InfoWindow();

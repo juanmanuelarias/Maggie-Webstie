@@ -9,8 +9,8 @@
         <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <![endif]-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <!-- Google font-->
-        <link href='http://fonts.googleapis.com/css?family=Lobster%7CLato:400,300italic,400italic,700' rel='stylesheet' type='text/css'>
+        <!-- Google font Hind + Lato -->
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800,600%20;Lato:400,300italic,400italic,700' rel='stylesheet'>
         
         <!-- Animate Stylesheet -->
         <link rel="stylesheet" href="css/animate.css">
@@ -23,9 +23,6 @@
 
         <!-- Font icon Stylesheet -->
         <link rel="stylesheet" href="css/ionicons.min.css">
-
-        <!-- Date-Time Picker -->
-        <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
         
         <!-- Main Stylesheet -->
         <link rel="stylesheet" href="css/style.css">
@@ -73,77 +70,11 @@
         </div><!-- End .side-right -->
         <!-- End SIDE ELEMENTS -->
 
-        <!-- Reservation Modal -->
-        <div class="modal fade" id="reservation-modal" tabindex="-1" role="dialog" aria-labelledby="reservation-title">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <form action="#" method="post" id="reservation-form">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h3 class="modal-title" id="reservation-title">Reservation</h3>
-                        </div><!-- End .modal-header -->
-
-                        <div class="modal-body">
-                            <div class="row">
-                                <div class="col-xs-6 col-xss-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="reservationname" name="reservationname" placeholder="Your Name" required>
-                                        <label for="reservationname" class="input-desc">Name</label>
-                                    </div><!-- End .form-group -->
-                                </div><!-- End .col-xs-6 -->
-                                <div class="col-xs-6 col-xss-12">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" id="reservationemail" name="reservationemail" placeholder="Your Email" required>
-                                        <label for="reservationemail" class="input-desc">Email</label>
-                                    </div><!-- End .form-group -->
-                                </div><!-- End .col-xs-6 -->
-                            </div><!-- End .row -->
-                            <div class="row">
-                                <div class="col-xs-6 col-xss-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="reservationphone" name="reservationphone" placeholder="Phone">
-                                        <label for="reservationphone" class="input-desc">Phone</label>
-                                    </div><!-- End .form-group -->
-                                </div><!-- End .col-xs-6 -->
-                                <div class="col-xs-6 col-xss-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="reservationmobilphone" name="reservationmobilphone" placeholder="Phone">
-                                        <label for="reservationmobilphone" class="input-desc">Mobil Phone</label>
-                                    </div><!-- End .form-group -->
-                                </div><!-- End .col-xs-6 -->
-                            </div><!-- End .row -->
-                            <div class="row">
-                                <div class="col-xs-6 col-xss-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="reservationnumber" name="reservationnumber" placeholder="Number of Guests">
-                                        <label for="reservationnumber" class="input-desc">Number of Guests</label>
-                                    </div><!-- End .form-group -->
-                                </div><!-- End .col-xs-6 -->
-                                <div class="col-xs-6 col-xss-12">
-                                    <div class="form-group">
-                                        <input type="text" id="reservationdate" name="reservationdate" readonly class="form-control form-date" data-date-format="dd MM yyyy hh:ii" placeholder="Date">
-                                        <label for="reservationdate" class="input-desc">Date &amp; Time</label>
-                                    </div><!-- End .form-group -->
-                                </div><!-- End .col-xs-6 -->
-                            </div><!-- End .row -->
-                            <div class="form-group">
-                                <textarea class="form-control" rows="6" id="reservationmessage" name="reservationmessage" placeholder="Your Requests" required></textarea>
-                                <label for="reservationmessage" class="input-desc">Comments/Requests</label>
-                            </div><!-- End .form-group -->
-                        </div><!-- End .modal-body -->
-                        <div class="modal-footer">
-                            <button type="submit" class="btn btn-black">Make a Reservation</button>
-                        </div><!-- End .modal-footer -->
-                    </form>
-                </div><!-- End .modal-content -->
-            </div><!-- End .modal-dialog -->
-        </div><!-- End .modal -->
-
         <!-- HEADER-->
         <header class="header">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html" title="Ona - Creative Template">Ona Resta.</a>
+                    <a class="navbar-brand" href="index.html" title="Ona - Creative Template"><i class="ion-cube"></i>Ona</a>
                     <button type="button" class="navbar-toggle" id="mobile-nav-btn">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -157,10 +88,11 @@
                     <nav>
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="index.html#home">Home</a></li>
+                            <li><a href="index.html#features">Features</a></li>
                             <li><a href="index.html#aboutus">About us</a></li>
                             <li><a href="index.html#services">Services</a></li>
-                            <li><a href="index.html#gallery">Gallery</a></li>
-                            <li><a href="index.html#menu">Menu</a></li>
+                            <li><a href="index.html#portfolio">Portfolio</a></li>
+                            <li><a href="index.html#pricing">Pricing</a></li>
                             <li><a href="index.html#blog">Blog</a></li>
                             <li class="dropdown">
                                 <a href="#pages" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pages<span class="caret"></span></a>
@@ -168,11 +100,11 @@
                                     <li><a href="elements.html">Elements Page</a></li>
                                     <li><a href="404.html">404 Page</a></li>
                                     <li class="dropdown sub-dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Gallery Post<span class="caret"></span></a>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio Post<span class="caret"></span></a>
                                         <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                                            <li><a href="single-post-gallery.html">Gallery Post Image</a></li>
-                                            <li><a href="single-post-gallery-video.html">Gallery Post Video</a></li>
-                                            <li><a href="single-post-gallery-gallery.html">Gallery Post Gallery</a></li>
+                                            <li><a href="single-portfolio.html">Portfolio Post Image</a></li>
+                                            <li><a href="single-portfolio-video.html">Portfolio Post Video</a></li>
+                                            <li><a href="single-portfolio-gallery.html">Portfolio Post Gallery</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown sub-dropdown">
@@ -198,7 +130,6 @@
                                 </ul>
                             </li>
                             <li><a href="index.html#contactus">Contact us</a></li>
-                            <li><a class="navbar-btn" href="#" data-toggle="modal" data-target="#reservation-modal">Reservation<i class="ion-clock"></i></a></li>
                         </ul>
                     </nav>
                 </div><!-- End .navbar-container -->
@@ -498,15 +429,21 @@
         <!-- Fixed FOOTER -->
         <footer class="fixed-footer footer-bottom">
             <div class="container-fluid">
-                <div class="text-center">Ona Restaurant - Created by <a href="http://wrapbootstrap.com/user/e2themes">e2Themes</a>. <span class="hidden-sm">All rights reserved.</span> &copy;</div><!-- End text-center -->
+                <div class="footer-left">Created by <a href="http://wrapbootstrap.com/user/e2themes">e2Themes</a>. <span class="hidden-sm">All rights reserved.</span> &copy;</div><!-- End .footer-left -->
+                <div class="footer-right">
+                    <ul class="footer-menu">
+                        <li><a href="#aboutus">About us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contactus">Contact us</a></li>
+                        <li><a href="http://wrapbootstrap.com/user/e2themes" target="_blank">Purchase!</a></li>
+                        <li><a id="scroll-top" href="#top" title="Top">Top<i class="ion-arrow-up-c"></i></a></li>
+                    </ul>
+                </div><!-- End .footer-right -->
             </div><!-- End .container-fluid -->
         </footer><!-- End .footer -->
         <!-- End FOOTER -->
     </div><!-- End #wrapper -->
 	<!-- END -->
-
-    <!-- scroll-top -->
-    <a href="#top" id="scroll-top" title="Scroll Top"><i class="ion-ios-arrow-up"></i></a>
     
     <!-- Smoothscroll -->
     <script src="js/smoothscroll.js"></script>
@@ -522,7 +459,6 @@
     <script src="js/skrollr.min.js"></script>
     <script src="js/spectragram.min.js"></script>
     <script src="js/twitter/jquery.tweet.min.js"></script>
-    <script src="js/bootstrap-datetimepicker.min.js"></script>
     <script src="js/main.js"></script>
 
     </body>
