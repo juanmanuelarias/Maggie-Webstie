@@ -313,13 +313,13 @@ $(function() {
 	// Instagram feed
     if ( $.fn.spectragram && $('#instafeed').length) {
 		jQuery.fn.spectragram.accessData = {
-		    accessToken: '3542102374.6b1dc36.51fe98a5b87546b28c0e4740f8b95f8c',
-		    clientID: '8c47e16792c8426aa93a08d82329d2e4'
+		    accessToken: '266164633.5e36d0b.2a2c5f2f1a0c4f43ba30511a8a642a71',
+		    clientID: '5e36d0baa3564f41863f82e0ab907f14'
 		};
 
 		jQuery('#instafeed').spectragram('getUserFeed',{
-		    query: 'onetemplatev2',
-		    max: 10,
+		    query: 'travelwithmagz',
+		    max: 20,
 		    size: 'medium',
 		    wrapEachWith: '',
 		    complete: function() {
