@@ -331,7 +331,7 @@ $(function() {
 					nav:false,
 					dots: false,
 					autoplay: true,
-					autoplayTimeout: 15000,
+					autoplayTimeout: 3000,
 					smartSpeed:800,
 					responsive:{
 						0: {
