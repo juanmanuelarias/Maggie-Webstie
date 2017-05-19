@@ -9,6 +9,7 @@
     "nodemon": "^1.11.0"
   },
   "devDependencies": {
+    "http-server": "^0.10.0",
     "nodemon": "^1.11.0"
   },
   "scripts": {
