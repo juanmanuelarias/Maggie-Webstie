@@ -1,0 +1,12 @@
+.navbar-brand>img{
+    display: inline;
+    padding-right: 15px;
+}
+
+.entry .entry-title {
+    margin-bottom: 0
+}
+
+.main{
+    padding-bottom: 0;
+}
