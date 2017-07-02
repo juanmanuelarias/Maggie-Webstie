@@ -14,3 +14,7 @@
 .owl-carousel .owl-item{
     max-height: 193px;
 }
+
+.fixed-footer{
+    position: inherit;
+}
