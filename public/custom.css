@@ -10,3 +10,7 @@
 .main{
     padding-bottom: 0;
 }
+
+.owl-carousel .owl-item{
+    max-height: 193px;
+}
