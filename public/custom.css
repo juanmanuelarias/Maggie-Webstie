@@ -18,3 +18,7 @@
 .fixed-footer{
     position: inherit;
 }
+
+.no-margin{
+    margin:0;
+}
