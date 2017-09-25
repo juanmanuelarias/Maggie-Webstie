@@ -1,7 +1,7 @@
 /*//////////////////////////////////////////
 ///----------------------------------------
 //------- Ona Template - Colors
-// ------ Color Hex code: #d9e165
+// ------ Color Hex code: #979c46
 ///----------------------------------------
 //////////////////////////////////////////*/
 
@@ -37,7 +37,7 @@ a:focus,
 .link-container a:focus,
 .btn.btn-red,
 .footer-top i {
-	color:#d9e165;
+	color:#979c46;
 }
 
 .pagination > .active > a,
@@ -54,8 +54,8 @@ a:focus,
 .btn.btn-white-block:hover,
 .btn.btn-white-block:focus,
 .btn.btn-white-block.focus {
-	background-color: #d9e165;
-	border-color: #d9e165;
+	background-color: #979c46;
+	border-color: #979c46;
 }
 
 .newsletter-container .btn:hover,
@@ -76,15 +76,15 @@ a:focus,
 .btn.btn-red.focus,
 .owl-prev:hover,
 .owl-next:hover {
-	background-color: #d9e165;
+	background-color: #979c46;
 }
 
 
 .form-control:focus,
 .btn.btn-red {
-	border-color: #d9e165;
+	border-color: #979c46;
 }
 
 .footer{
-	background-color: #d9e165;
+	background-color: #979c46
 }
