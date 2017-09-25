@@ -22,3 +22,8 @@
 .no-margin{
     margin:0;
 }
+
+.entry-date{
+    background-color: inherit;
+    color: #979c46;
+}
