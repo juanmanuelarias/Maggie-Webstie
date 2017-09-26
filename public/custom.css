@@ -25,5 +25,9 @@
 
 .entry-date{
     background-color: inherit;
-    color: #979c46;
+    color: #d5df4c;
+}
+
+body{
+    background-color: #fff;
 }
