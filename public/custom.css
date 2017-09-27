@@ -28,6 +28,25 @@
     color: #d5df4c;
 }
 
+.fun-title{
+    font-family: "Dosis";
+    font-size: 30px;
+    color: #723298;
+}
+
+.fun-subtitle{
+    font-size: 20px;
+}
+
+.fun-text{
+    font-family: Delius;
+    font-size: 18px;
+}
+
+.fun-subtext{
+    font-size: 16px;
+}
+
 body{
     background-color: #fff;
 }
