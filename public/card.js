@@ -16,9 +16,11 @@ function scrollHeader() {
     $(document).on("scroll", function() {
         if ($(document).scrollTop() > 100) {
             $("header").addClass("header-shrink");
+            $(".logo").addClass("logo-small");
         }
         else {
             $("header").removeClass("header-shrink");
+            $(".logo").removeClass("logo-small");
         }
     });
 }
