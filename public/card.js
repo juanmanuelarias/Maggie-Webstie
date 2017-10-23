@@ -18,11 +18,12 @@ function scrollHeader() {
             $("header").addClass("header-shrink");
             $(".logo").addClass("logo-small");
             $(".navbar-brand").addClass("navbar-brand-small");
+            $("nav").addClass("nav-no-padding-top");
         }
         else {
             $("header").removeClass("header-shrink");
             $(".logo").removeClass("logo-small");
-            $(".navbar-brand").removeClass("navbar-brand-small");
+            $("nav").removeClass("nav-no-padding-top");
         }
     });
 }
