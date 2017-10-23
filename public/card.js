@@ -17,10 +17,12 @@ function scrollHeader() {
         if ($(document).scrollTop() > 100) {
             $("header").addClass("header-shrink");
             $(".logo").addClass("logo-small");
+            $(".navbar-brand").addClass("navbar-brand-small");
         }
         else {
             $("header").removeClass("header-shrink");
             $(".logo").removeClass("logo-small");
+            $(".navbar-brand").removeClass("navbar-brand-small");
         }
     });
 }
