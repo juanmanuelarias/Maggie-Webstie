@@ -28,23 +28,14 @@
     color: #d5df4c;
 }
 
-.fun-title{
-    font-family: "Dosis";
-    font-size: 30px;
-    color: #723298;
-}
 
 .fun-subtitle{
     font-size: 20px;
 }
 
-.fun-text{
+.about-text{
     font-size: 18px;
     font-weight: 300;
-}
-
-.fun-subtext{
-    font-size: 16px;
 }
 
 .title > span {
@@ -52,11 +43,11 @@
     display: inline-block;
     padding: 10px 28px;
     background-color: white;
-    color: black;
+    color: #723298;
     font-size: 37px;
     font-weight: 400;
-    border: 2px solid black;
-    outline-offset: inherit;
+    border: 0px;
+    outline: none;
     font-family: "Dosis";
 }
 
